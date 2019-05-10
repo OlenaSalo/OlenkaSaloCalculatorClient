@@ -1,0 +1,1 @@
+{"uuid":"743aa4a1-1339-4c7e-bac1-3db6fc47ff5d","name":"com.epam.labTA.web.CalculatorRestAPITest","start":1557379823330,"stop":1557379826121,"children":["2c3e0076-c2e3-4f46-9d48-a511233ceaf3","555ff2a7-4e81-4584-939d-eccd81f1dc93"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1557379823379,"stop":1557379823386}]}

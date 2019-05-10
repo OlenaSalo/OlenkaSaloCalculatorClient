@@ -18,7 +18,6 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence>
  *         &lt;element name="num1" type="{http://www.w3.org/2001/XMLSchema}double"/>
  *         &lt;element name="num2" type="{http://www.w3.org/2001/XMLSchema}double"/>
- *         &lt;element name="operation" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -30,21 +29,12 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "calculator", propOrder = {
     "num1",
-    "num2",
-    "operation"
+    "num2"
 })
 public class Calculator {
 
-    public Calculator(double num1, double num2, String operation){
-        this.num1 = num1;
-        this.num2 = num2;
-        this.operation = operation;
-    }
-
-    public Calculator(){}
     protected double num1;
     protected double num2;
-    protected String operation;
 
     /**
      * Gets the value of the num1 property.
@@ -76,30 +66,6 @@ public class Calculator {
      */
     public void setNum2(double value) {
         this.num2 = value;
-    }
-
-    /**
-     * Gets the value of the operation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOperation() {
-        return operation;
-    }
-
-    /**
-     * Sets the value of the operation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOperation(String value) {
-        this.operation = value;
     }
 
 }

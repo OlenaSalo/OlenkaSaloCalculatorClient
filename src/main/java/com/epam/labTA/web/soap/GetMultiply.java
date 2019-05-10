@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getMultiplyMsg", propOrder = {
+@XmlType(name = "getMultiply", namespace = "", propOrder = {
     "arg0",
     "arg1"
 })

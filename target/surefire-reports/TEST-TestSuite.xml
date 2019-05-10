@@ -1,88 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.256" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.892" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.201-b09"/>
+    <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/olenkasalo/OlenkaSaloCalculatorClient"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
     <property name="user.country" value="UA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient"/>
+    <property name="user.dir" value="/Users/olenkasalo/OlenkaSaloCalculatorClient"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/fd/4bld_lvj7lqbdy8qnxrngcf00000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.0-bin\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.6.0-bin\bin;C:\Gradle\gradle-4.10-all\gradle-4.10\bin;C:\Program Files\allure\2.10.0\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\User\scoop\shims;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Users\User\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.0-bin\bin\../conf"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/olenkasalo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.0-bin\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\User"/>
-    <property name="user.timezone" value="Europe/Helsinki"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/olenkasalo"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1251"/>
-    <property name="user.name" value="User"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.0-bin\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="olenkasalo"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="uk"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_201"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.ext.dirs" value="/Users/olenkasalo/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.0-bin\bin\.."/>
-    <property name="file.separator" value="\"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp866"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="checkRoundTo4Places" classname="com.epam.labTA.web.CalculateAPITest" time="0.308"/>
-  <testcase name="verifyForbiddenZeroDivision" classname="com.epam.labTA.web.CalculateAPITest" time="0.018"/>
-  <testcase name="verifyNegativeNumber" classname="com.epam.labTA.web.CalculateAPITest" time="0.033">
-    <failure message="did not expect to find [-5.0] but found [5.0]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [-5.0] but found [5.0]
-	at com.epam.labTA.web.CalculateAPITest.verifyNegativeNumber(CalculateAPITest.java:136)
-</failure>
-    <system-out><![CDATA[[INFO ] - Verification of negative number, Soap service
-[INFO ] - Verification of negative number, Rest service
-]]></system-out>
-  </testcase>
-  <testcase name="verifyOtherOperationNotCalculate" classname="com.epam.labTA.web.CalculateAPITest" time="0.01"/>
-  <testcase name="verifyRightCalculateOperationRest" classname="com.epam.labTA.web.CalculateAPITest" time="0.038"/>
-  <testcase name="verifyRightCalculateOperationSoap" classname="com.epam.labTA.web.CalculateAPITest" time="0.041"/>
-  <testcase name="checkMessagefromRestServiceTest" classname="com.epam.labTA.web.CalculatorRestAPITest" time="0.02">
-    <failure message="expected [[&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;]] but found [[&quot;value1-&gt; 45,000000;  value2-&gt; 11,000000; operation: &apos;*&apos;; answer-&gt; 495,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 45,000000;  value2-&gt; 11,000000; operation: &apos;*&apos;; answer-&gt; 495,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 45,000000;  value2-&gt; 11,000000; operation: &apos;*&apos;; answer-&gt; 495,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;,&quot;value1-&gt; 45,000000;  value2-&gt; 11,000000; operation: &apos;*&apos;; answer-&gt; 495,0000 &quot;,&quot;value1-&gt; 5,000000;  value2-&gt; 6,000000; operation: &apos;/&apos;; answer-&gt; 0,8333 &quot;,&quot;value1-&gt; 6,000000;  value2-&gt; 11,000000; operation: &apos;-&apos;; answer-&gt; -5,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;*&apos;; answer-&gt; 32190,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;+&apos;; answer-&gt; 367,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;-&apos;; answer-&gt; 77,0000 &quot;,&quot;value1-&gt; 222,000000;  value2-&gt; 145,000000; operation: &apos;%&apos;; answer-&gt; 153,1034 &quot;,&quot;value1-&gt; 12,000000;  value2-&gt; 3,000000; operation: &apos;+&apos;; answer-&gt; 15,0000 &quot;]]" type="java.lang.AssertionError">java.lang.AssertionError: expected [["value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]] but found [["value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]]
-	at com.epam.labTA.web.CalculatorRestAPITest.checkMessagefromRestServiceTest(CalculatorRestAPITest.java:29)
-</failure>
-    <system-out><![CDATA[[INFO ] - Messages from rest service
-]]></system-out>
-  </testcase>
-  <testcase name="checkStatusForEndpointRestTest" classname="com.epam.labTA.web.CalculatorRestAPITest" time="3.024"/>
+  <testcase name="checkRoundTo4Places" classname="com.epam.labTA.web.CalculateAPITest" time="2.534"/>
+  <testcase name="verifyForbiddenZeroDivision" classname="com.epam.labTA.web.CalculateAPITest" time="0.031"/>
+  <testcase name="verifyNegativeNumber" classname="com.epam.labTA.web.CalculateAPITest" time="0.061"/>
+  <testcase name="verifyRightAddOperation" classname="com.epam.labTA.web.CalculateAPITest" time="0.047"/>
+  <testcase name="verifyRightCalculateMethod" classname="com.epam.labTA.web.CalculateAPITest" time="0.052"/>
+  <testcase name="verifyRightDivideOperation" classname="com.epam.labTA.web.CalculateAPITest" time="0.046"/>
+  <testcase name="verifyRightMultiplyOperation" classname="com.epam.labTA.web.CalculateAPITest" time="0.066"/>
+  <testcase name="verifyRightPercentageOperation" classname="com.epam.labTA.web.CalculateAPITest" time="0.057"/>
+  <testcase name="verifyRightSubtractOperation" classname="com.epam.labTA.web.CalculateAPITest" time="0.257"/>
+  <testcase name="checkBodyRestServiceTest" classname="com.epam.labTA.web.CalculatorRestAPITest" time="0.042"/>
+  <testcase name="checkOtherOperationTest" classname="com.epam.labTA.web.CalculatorRestAPITest" time="0.02"/>
 </testsuite>

@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getSubtractMsg", propOrder = {
+@XmlType(name = "getSubtract", namespace = "", propOrder = {
     "arg0",
     "arg1"
 })

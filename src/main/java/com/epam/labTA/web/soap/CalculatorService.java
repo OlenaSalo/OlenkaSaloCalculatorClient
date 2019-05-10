@@ -1,7 +1,8 @@
 
 package com.epam.labTA.web.soap;
 
-import io.qameta.allure.Step;
+import com.epam.labTA.web.exception.ResponseError;
+import io.restassured.response.Response;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -22,81 +23,132 @@ import javax.xml.ws.ResponseWrapper;
 @XmlSeeAlso({
     ObjectFactory.class
 })
-public interface CalculatorService extends com.epam.labTA.web.CalculatorService{
+public interface CalculatorService {
 
-    
+
+    /**
+     * 
+     * @param arg0
+     * @param arg1
+     * @return
+     *     returns double
+     * @throws SoapException
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getPercentage", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetPercentage")
-    @ResponseWrapper(localName = "getPercentageResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetPercentageResponse")
-    public double getPercentage(
+    @RequestWrapper(localName = "getPercentage", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetPercentage")
+    @ResponseWrapper(localName = "getPercentageResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetPercentageResponse")
+    public Response getPercentage(
         @WebParam(name = "arg0", targetNamespace = "")
         double arg0,
         @WebParam(name = "arg1", targetNamespace = "")
         double arg1)
-        throws SoapException
+            throws SoapException, ResponseError
     ;
 
-  
+    /**
+     * 
+     * @param arg0
+     * @param arg1
+     * @return
+     *     returns double
+     * @throws SoapException
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getMultiply", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetMultiply")
-    @ResponseWrapper(localName = "getMultiplyResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetMultiplyResponse")
-    public double getMultiply(
+    @RequestWrapper(localName = "getMultiply", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetMultiply")
+    @ResponseWrapper(localName = "getMultiplyResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetMultiplyResponse")
+    public Response getMultiply(
         @WebParam(name = "arg0", targetNamespace = "")
         double arg0,
         @WebParam(name = "arg1", targetNamespace = "")
         double arg1)
-        throws SoapException
+            throws SoapException, ResponseError
     ;
 
+    /**
+     * 
+     * @param arg1
+     * @param arg0
+     * @param arg2
+     * @return
+     *     returns double
+     * @throws SoapException
+     * @throws ResponseError
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getCalculate", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetCalculate")
-    @ResponseWrapper(localName = "getCalculateResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetCalculateResponse")
-    public double getCalculate(
+    @RequestWrapper(localName = "getCalculate", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetCalculate")
+    @ResponseWrapper(localName = "getCalculateResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetCalculateResponse")
+    public Response getCalculate(
         @WebParam(name = "arg0", targetNamespace = "")
-        Calculator arg0)
-        throws SoapException
+        double arg0,
+        @WebParam(name = "arg1", targetNamespace = "")
+        double arg1,
+        @WebParam(name = "arg2", targetNamespace = "")
+                String arg2)
+
+        throws SoapException, ResponseError
     ;
 
-   
+    /**
+     * 
+     * @param arg0
+     * @param arg1
+     * @return
+     *     returns double
+     * @throws SoapException
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getDivide", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetDivide")
-    @ResponseWrapper(localName = "getDivideResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetDivideResponse")
-    public double getDivide(
+    @RequestWrapper(localName = "getDivide", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetDivide")
+    @ResponseWrapper(localName = "getDivideResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetDivideResponse")
+    public Response getDivide(
         @WebParam(name = "arg0", targetNamespace = "")
         double arg0,
         @WebParam(name = "arg1", targetNamespace = "")
         double arg1)
-        throws SoapException
+            throws SoapException, ResponseError
     ;
 
-    
+    /**
+     * 
+     * @param arg0
+     * @param arg1
+     * @return
+     *     returns double
+     * @throws SoapException
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getSubtract", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetSubtract")
-    @ResponseWrapper(localName = "getSubtractResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetSubtractResponse")
-    public double getSubtract(
+    @RequestWrapper(localName = "getSubtract", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetSubtract")
+    @ResponseWrapper(localName = "getSubtractResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetSubtractResponse")
+    public Response getSubtract(
         @WebParam(name = "arg0", targetNamespace = "")
         double arg0,
         @WebParam(name = "arg1", targetNamespace = "")
         double arg1)
-        throws SoapException
+            throws SoapException, ResponseError
     ;
 
-    
+    /**
+     * 
+     * @param arg0
+     * @param arg1
+     * @return
+     *     returns double
+     * @throws SoapException
+     *
+     */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getAdd", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetAdd")
-    @ResponseWrapper(localName = "getAddResponse", targetNamespace = "http://soap.service.labTA.com/", className = "soap.GetAddResponse")
-    public double getAdd(
+    @RequestWrapper(localName = "getAdd", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetAdd")
+    @ResponseWrapper(localName = "getAddResponse", targetNamespace = "http://soap.service.labTA.com/", className = "com.labta.service.soap.GetAddResponse")
+    public Response getAdd(
         @WebParam(name = "arg0", targetNamespace = "")
         double arg0,
         @WebParam(name = "arg1", targetNamespace = "")
         double arg1)
-        throws SoapException
-    ;
+        throws SoapException, ResponseError;
 
 }

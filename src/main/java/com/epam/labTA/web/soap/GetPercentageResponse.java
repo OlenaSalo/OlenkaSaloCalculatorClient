@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getPercentageResponseMsg", propOrder = {
+@XmlType(name = "getPercentageResponse", namespace = "", propOrder = {
     "_return"
 })
 public class GetPercentageResponse {

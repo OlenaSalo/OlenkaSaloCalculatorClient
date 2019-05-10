@@ -16,7 +16,8 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="arg0" type="{http://soap.service.labTA.com/}calculator" minOccurs="0"/>
+ *         &lt;element name="arg0" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="arg1" type="{http://soap.service.labTA.com/}calculator" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -26,22 +27,24 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getCalculateMsg", propOrder = {
-    "arg0"
+@XmlType(name = "getCalculate", namespace = " ", propOrder = {
+    "arg0",
+    "arg1"
 })
 public class GetCalculate {
 
-    protected Calculator arg0;
+    protected String arg0;
+    protected Calculator arg1;
 
     /**
      * Gets the value of the arg0 property.
      * 
      * @return
      *     possible object is
-     *     {@link Calculator }
+     *     {@link String }
      *     
      */
-    public Calculator getArg0() {
+    public String getArg0() {
         return arg0;
     }
 
@@ -50,11 +53,35 @@ public class GetCalculate {
      * 
      * @param value
      *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setArg0(String value) {
+        this.arg0 = value;
+    }
+
+    /**
+     * Gets the value of the arg1 property.
+     * 
+     * @return
+     *     possible object is
      *     {@link Calculator }
      *     
      */
-    public void setArg0(Calculator value) {
-        this.arg0 = value;
+    public Calculator getArg1() {
+        return arg1;
+    }
+
+    /**
+     * Sets the value of the arg1 property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Calculator }
+     *     
+     */
+    public void setArg1(Calculator value) {
+        this.arg1 = value;
     }
 
 }

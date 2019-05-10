@@ -8,25 +8,24 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.Listeners;
-
 import static java.lang.String.format;
 
 @Listeners
 public class TestListener implements ITestListener {
 
-        public static final Logger LOG = LogManager.getLogger();
-        private JsonObject jsonObject;
+    public static final Logger LOG = LogManager.getLogger();
+    private JsonObject jsonObject;
 
-        @Attachment(value = "{0}", type = "text/plain")
-        public static String saveTexLog(String msg){
-            return msg;
-        }
+    @Attachment(value = "{0}", type = "text/plain")
+    public static String saveTexLog(String msg) {
+        return msg;
+    }
 
 
     @Override
     public void onTestStart(ITestResult result) {
         jsonObject = new JsonObject();
-         LOG.info("START" + result.getMethod().getMethodName());
+        LOG.info("START" + result.getMethod().getMethodName());
     }
 
     @Override
@@ -38,7 +37,7 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         LOG.error(format("[result : FAILURE]", result.getMethod().getMethodName()));
-        saveTexLog(result.getMethod().getMethodName()  + "failed");
+        saveTexLog(result.getMethod().getMethodName() + "failed");
     }
 
     @Override

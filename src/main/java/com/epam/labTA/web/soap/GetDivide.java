@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getDivideMsg", propOrder = {
+@XmlType(name = "getDivide", namespace = "", propOrder = {
     "arg0",
     "arg1"
 })

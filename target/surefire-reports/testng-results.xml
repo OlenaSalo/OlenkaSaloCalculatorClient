@@ -1,139 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5385" started-at="2019-03-11T11:05:04 EET" finished-at="2019-03-11T11:05:09 EET">
+  <suite name="Suite" duration-ms="3413" started-at="2019-05-10T11:19:07 EEST" finished-at="2019-05-10T11:19:10 EEST">
     <groups>
     </groups>
-    <test name="CalculateTest" duration-ms="5385" started-at="2019-03-11T11:05:04 EET" finished-at="2019-03-11T11:05:09 EET">
+    <test name="CalculateTest" duration-ms="3413" started-at="2019-05-10T11:19:07 EEST" finished-at="2019-05-10T11:19:10 EEST">
       <class name="com.epam.labTA.web.CalculateAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="setUp" is-config="true" duration-ms="1626" started-at="2019-03-11T11:05:04 EET" finished-at="2019-03-11T11:05:05 EET">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="setUp" is-config="true" duration-ms="32" started-at="2019-05-10T11:19:07 EEST" finished-at="2019-05-10T11:19:07 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkRoundTo4Places()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="checkRoundTo4Places" duration-ms="300" started-at="2019-03-11T11:05:05 EET" finished-at="2019-03-11T11:05:06 EET">
+        <test-method status="PASS" signature="checkRoundTo4Places()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="checkRoundTo4Places" duration-ms="2467" started-at="2019-05-10T11:19:07 EEST" finished-at="2019-05-10T11:19:09 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRoundTo4Places -->
-        <test-method status="PASS" signature="verifyForbiddenZeroDivision()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="verifyForbiddenZeroDivision" duration-ms="17" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
+        <test-method status="PASS" signature="verifyForbiddenZeroDivision()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyForbiddenZeroDivision" duration-ms="30" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForbiddenZeroDivision -->
-        <test-method status="FAIL" signature="verifyNegativeNumber()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="verifyNegativeNumber" duration-ms="20" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[did not expect to find [-5.0] but found [5.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: did not expect to find [-5.0] but found [5.0]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at org.testng.Assert.assertEquals(Assert.java:651)
-at com.epam.labTA.web.CalculateAPITest.verifyNegativeNumber(CalculateAPITest.java:136)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner.privateRun(TestRunner.java:763)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="verifyNegativeNumber()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyNegativeNumber" duration-ms="64" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNegativeNumber -->
-        <test-method status="PASS" signature="verifyOtherOperationNotCalculate()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="verifyOtherOperationNotCalculate" duration-ms="8" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
+        <test-method status="PASS" signature="verifyRightAddOperation()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightAddOperation" duration-ms="46" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOtherOperationNotCalculate -->
-        <test-method status="PASS" signature="verifyRightCalculateOperationRest()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="verifyRightCalculateOperationRest" duration-ms="35" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
+        </test-method> <!-- verifyRightAddOperation -->
+        <test-method status="PASS" signature="verifyRightCalculateMethod()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightCalculateMethod" duration-ms="57" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRightCalculateOperationRest -->
-        <test-method status="PASS" signature="verifyRightCalculateOperationSoap()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@4570d7b6]" name="verifyRightCalculateOperationSoap" duration-ms="36" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
+        </test-method> <!-- verifyRightCalculateMethod -->
+        <test-method status="PASS" signature="verifyRightDivideOperation()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightDivideOperation" duration-ms="45" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRightCalculateOperationSoap -->
+        </test-method> <!-- verifyRightDivideOperation -->
+        <test-method status="PASS" signature="verifyRightMultiplyOperation()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightMultiplyOperation" duration-ms="65" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightMultiplyOperation -->
+        <test-method status="PASS" signature="verifyRightPercentageOperation()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightPercentageOperation" duration-ms="57" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightPercentageOperation -->
+        <test-method status="PASS" signature="verifyRightSubtractOperation()[pri:0, instance:com.epam.labTA.web.CalculateAPITest@7b948f3e]" name="verifyRightSubtractOperation" duration-ms="257" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRightSubtractOperation -->
       </class> <!-- com.epam.labTA.web.CalculateAPITest -->
       <class name="com.epam.labTA.web.CalculatorRestAPITest">
-        <test-method status="FAIL" signature="checkMessagefromRestServiceTest()[pri:0, instance:com.epam.labTA.web.CalculatorRestAPITest@72b6832e]" name="checkMessagefromRestServiceTest" duration-ms="17" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:06 EET">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [["value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]] but found [["value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [["value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]] but found [["value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 ","value1-> 45,000000;  value2-> 11,000000; operation: '*'; answer-> 495,0000 ","value1-> 5,000000;  value2-> 6,000000; operation: '/'; answer-> 0,8333 ","value1-> 6,000000;  value2-> 11,000000; operation: '-'; answer-> -5,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '*'; answer-> 32190,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '+'; answer-> 367,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '-'; answer-> 77,0000 ","value1-> 222,000000;  value2-> 145,000000; operation: '%'; answer-> 153,1034 ","value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 "]]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.epam.labTA.web.CalculatorRestAPITest.checkMessagefromRestServiceTest(CalculatorRestAPITest.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner.privateRun(TestRunner.java:763)
-at org.testng.TestRunner.run(TestRunner.java:594)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.labTA.web.CalculatorRestAPITest@2f4c2cd4]" name="setUp" is-config="true" duration-ms="1" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkMessagefromRestServiceTest -->
-        <test-method status="PASS" signature="checkStatusForEndpointRestTest()[pri:0, instance:com.epam.labTA.web.CalculatorRestAPITest@72b6832e]" name="checkStatusForEndpointRestTest" duration-ms="3035" started-at="2019-03-11T11:05:06 EET" finished-at="2019-03-11T11:05:09 EET">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBodyRestServiceTest()[pri:0, instance:com.epam.labTA.web.CalculatorRestAPITest@2f4c2cd4]" name="checkBodyRestServiceTest" duration-ms="42" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkStatusForEndpointRestTest -->
+        </test-method> <!-- checkBodyRestServiceTest -->
+        <test-method status="PASS" signature="checkOtherOperationTest()[pri:0, instance:com.epam.labTA.web.CalculatorRestAPITest@2f4c2cd4]" name="checkOtherOperationTest" duration-ms="20" started-at="2019-05-10T11:19:10 EEST" finished-at="2019-05-10T11:19:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOtherOperationTest -->
       </class> <!-- com.epam.labTA.web.CalculatorRestAPITest -->
     </test> <!-- CalculateTest -->
   </suite> <!-- Suite -->

@@ -1,44 +1,41 @@
 package com.epam.labTA.web;
 
+import com.epam.labTA.web.exception.ResponseError;
 import com.epam.labTA.web.rest.CalculateRestServiceClient;
+import com.epam.labTA.web.soap.CalculatorService;
 import com.epam.labTA.web.soap.SoapException;
-import io.qameta.allure.Step;
+import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import static io.restassured.RestAssured.get;
-import io.restassured.response.Response;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-
-import static com.epam.labTA.web.rest.CalculateRestServiceClient.*;
-
 
 public class CalculatorRestAPITest {
     private static Logger LOG = LogManager.getLogger(CalculatorRestAPITest.class);
-    private CalculateRestServiceClient service = new CalculateRestServiceClient();
+    private static CalculatorService serviceRest = ServiceFactory.getCalculatorService("REST");
+    private static CalculateRestServiceClient clientRest = new CalculateRestServiceClient();
 
+    @BeforeClass
+    public static void setUp() {
+        LOG.info("Getting port of CalculatorService");
+    }
 
     @Test
-    public void checkMessagefromRestServiceTest() throws SoapException {
+    public void checkBodyRestServiceTest() throws SoapException, ResponseError {
         LOG.info("Messages from rest service");
-        String url = String.format("%s/%s/%s/%s",  CALCULATE, 12, 3, "+");
-
-        String actualString = "[\"value1-> 12,000000;  value2-> 3,000000; operation: '+'; answer-> 15,0000 \"]";
-
-        Assert.assertEquals( service.performRequest(url), actualString);
+        String actualBody = "[\"value1-> 9.000000;  value2-> 8.000000; operation: 'ADD'; answer-> 17.0000 \"]";
+        Response response = serviceRest.getCalculate(9, 8, "ADD");
+        String expectedBody = clientRest.performResponseAsString(response);
+        Assert.assertEquals(expectedBody, actualBody);
     }
 
     @Test
-    @Step("Step check status code for calculate endpoints")
-    public void checkStatusForEndpointRestTest() {
-        LOG.info("Check status code for endpoint CALCULATE");
-        String str = endpoint + CALCULATE + "/45" + "/11" + "/*";
-        Response response = get(str);
-        int statusCode = response.getStatusCode();
-        Assert.assertEquals(statusCode, 200);
+    public void checkOtherOperationTest() {
+        LOG.info("Check if other operation forbidden, expect 6 allow ");
+        Assert.assertThrows(ResponseError.class, () -> serviceRest.getCalculate(12, 73, "SIN"));
     }
-
-
-
 }
+
+
+

@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="143fc08d-1797-4798-a9a2-4ba5a7aa648b" name="Default Changelist" comment="" />
+    <list default="true" id="143fc08d-1797-4798-a9a2-4ba5a7aa648b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorServiceImpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/FaultInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAddResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivideResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiplyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtractResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/SoapException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculatorRestAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculatorRestAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/CalculatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/reporter/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/reporter/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/rest/CalculateRestServiceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/rest/CalculateRestServiceClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetAddResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetAddResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetCalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetCalculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetCalculateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetCalculateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetDivide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetDivide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetDivideResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetDivideResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetMultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetMultiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetMultiplyResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetMultiplyResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetPercentage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetPercentage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetPercentageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetPercentageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetSubtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetSubtract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetSubtractResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/labTA/web/soap/GetSubtractResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/CalculateTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/CalculateTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/CalculateTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/CalculateTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.labTA.web.CalculateAPITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.labTA.web.CalculateAPITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.labTA.web.CalculatorRestAPITest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.labTA.web.CalculatorRestAPITest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/labTA/web/CalculateAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/labTA/web/CalculateAPITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/labTA/web/CalculatorRestAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/labTA/web/CalculatorRestAPITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNG.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,58 +96,16 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1837">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculatorRestAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="465">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +116,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/SoapException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,17 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-984">
-              <caret line="30" column="151" selection-start-line="30" selection-start-column="151" selection-end-line="30" selection-end-column="151" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="2055">
+              <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,19 +147,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="405">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="1335">
+              <caret line="89" selection-end-line="113" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/exception/ResponseError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAddResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -143,6 +219,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,8 +246,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/soap/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtractResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java" />
+        <option value="$PROJECT_DIR$/soap/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/exception/NoSuchMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculateResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.java" />
@@ -177,26 +263,38 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiplyResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentageResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtractResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAddResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java" />
-        <option value="$PROJECT_DIR$/soap/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/exception/ResponseError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculatorRestAPITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OlenkaSaloCalcServiceClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OlenkaSaloCalcServiceClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-25" />
-    <option name="width" value="1940" />
+    <option name="width" value="1180" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -204,55 +302,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalcServiceClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalcServiceClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="OlenkaSaloCalculatorClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlenkaSaloCalculatorClient" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552295292369" />
@@ -268,14 +334,15 @@
       <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcService\target\OlenkaSaloCalcService-1.0-SNAPSHOT\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epam.labTA.web.exception" />
       <recent name="com.epam.labTA.web.reporter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/epam/labTA/web" />
       <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient\src\main\java\com\epam\labTA\web\soap" />
       <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient\soap" />
       <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient\src\main\java\com\epam\labTA\web" />
       <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient\src\main\java\com\epam\labTA" />
-      <recent name="C:\Users\User\IdeaProjects\OlenkaSaloCalcServiceClient\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,6 +368,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.labTA.web" />
       <option name="MAIN_CLASS_NAME" value="com.epam.labTA.web.CalculateAPITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -416,6 +484,19 @@
       <workItem from="1552019028434" duration="16415000" />
       <workItem from="1552215162337" duration="3808000" />
       <workItem from="1552279486529" duration="7360000" />
+      <workItem from="1556822857535" duration="517000" />
+      <workItem from="1556856989119" duration="2970000" />
+      <workItem from="1556944489954" duration="822000" />
+      <workItem from="1557051797683" duration="1518000" />
+      <workItem from="1557128142699" duration="811000" />
+      <workItem from="1557162142864" duration="383000" />
+      <workItem from="1557211768116" duration="3357000" />
+      <workItem from="1557219877239" duration="47000" />
+      <workItem from="1557220325757" duration="3323000" />
+      <workItem from="1557231944485" duration="1903000" />
+      <workItem from="1557297719132" duration="8179000" />
+      <workItem from="1557378278645" duration="8582000" />
+      <workItem from="1557461962448" duration="2789000" />
     </task>
     <servers />
   </component>
@@ -452,13 +533,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120988000" />
+    <option name="totallyTimeSpent" value="156189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3557047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,7 +547,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4490085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -476,56 +556,22 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42776203" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31686747" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="right" id="CDI" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.07725322" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
+      <window_info anchor="right" id="CDI" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35033557" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42917848" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46600565" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -535,7 +581,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java</url>
-          <line>93</line>
+          <line>91</line>
           <properties class="com.epam.labTA.web.CalculateAPITest" method="checkRoundTo4Places">
             <option name="EMULATED" value="true" />
           </properties>
@@ -545,108 +591,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/soapClient/CalculatorServiceImpService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/soap/CalculatorService.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/soap/Calculator.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/soap/FaultInfo.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/runtime/IllegalAnnotationsException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/db/glassfish/JAXBRIContextFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/runtime/IllegalAnnotationsException.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/db/glassfish/JAXBRIContextFactory.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/fault/SOAPFaultBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/sei/StubHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/fault/SOAPFaultBuilder.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/sei/StubHandler.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/package-info.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/SoapException.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculate.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorServiceImpService.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/FaultInfo.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculateResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivideResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiplyResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentageResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="55" lean-forward="true" selection-start-column="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/fault/SOAP11Fault.class" />
+    <entry file="file://$PROJECT_DIR$/soap/Calculator.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/Main.java" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorServiceImpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="63" selection-start-line="121" selection-start-column="63" selection-end-line="121" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -657,40 +663,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/com/sun/xml/internal/ws/fault/SOAP11Fault.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.class" />
-    <entry file="file://$PROJECT_DIR$/soap/Calculator.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAddResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="371">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetCalculateResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="192">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetPercentageResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetMultiplyResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtractResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2328">
+          <caret line="201" column="40" selection-start-line="201" selection-start-column="40" selection-end-line="201" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivideResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -699,101 +752,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/SoapException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="195">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="116" column="63" selection-start-line="116" selection-start-column="63" selection-end-line="116" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorServiceImpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtractResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetSubtract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/CalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-984">
-          <caret line="30" column="151" selection-start-line="30" selection-start-column="151" selection-end-line="30" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetDivide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/CalculatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="2055">
+          <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/ServiceFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/exception/ResponseError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="69" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="69" />
+        <state relative-caret-position="45">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/reporter/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/soap/GetAddResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/labTA/web/rest/CalculateRestServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -802,25 +811,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculateAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1837">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="1335">
+          <caret line="89" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/labTA/web/CalculatorRestAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        <state relative-caret-position="465">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

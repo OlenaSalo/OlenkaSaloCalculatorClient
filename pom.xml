@@ -11,7 +11,6 @@
 
     <packaging>jar</packaging>
 
-
 <dependencies>
     <dependency>
         <groupId>org.testng</groupId>
@@ -63,7 +62,7 @@
     <dependency>
         <groupId>javax.ws.rs</groupId>
         <artifactId>javax.ws.rs-api</artifactId>
-        <version>2.0.1</version>
+        <version>${jaxrs.version}</version>
     </dependency>
 
     <dependency>
@@ -88,6 +87,17 @@
         <artifactId>rest-assured</artifactId>
         <version>3.0.7</version>
         <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-client</artifactId>
+        <version>${jersey2.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>3.3.0</version>
+        <scope>compile</scope>
     </dependency>
 </dependencies>
 
@@ -121,6 +131,7 @@
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
+
                         <version>${aspectj.version}</version>
                     </dependency>
                 </dependencies>
@@ -138,6 +149,8 @@
     </build>
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
+            <jersey2.version>2.19</jersey2.version>
+            <jaxrs.version>2.0.1</jaxrs.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 </properties>

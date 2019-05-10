@@ -45,7 +45,7 @@ public class SoapException
     /**
      * 
      * @return
-     *     returns fault bean: soap.FaultInfo
+     *     returns fault bean: com.labta.service.soap.FaultInfo
      */
     public FaultInfo getFaultInfo() {
         return faultInfo;
